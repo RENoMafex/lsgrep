@@ -2,4 +2,4 @@
 
 input="$1"
 
-ls -lAh | grc -c conf.ls grep .$input
+ls -lAh --color=always | grc -c conf.ls grep .$input
