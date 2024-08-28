@@ -2,4 +2,8 @@
 
 input="$1"
 
-ls -lAh --color=always | grc -c conf.ls grep .$input
+if command -v grc >/dev/null; then
+	ls -lAh --color=always | grc -c conf.ls grep .$input
+else
+	ls -lAh --color=always | grep .$input
+fi
