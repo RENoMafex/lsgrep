@@ -4,7 +4,8 @@ A shellscript to automatically pipe the output from `ls -lAh` to `grep`. If you 
 
 ## Installation
 
-**Step 1:** Download `lsgrep` either by clicking [master.zip](https://github.com/RENoMafex/lsgrep/archive/refs/heads/master.zip) or some CLI tool like 
+### Step 1
+Download `lsgrep` either by clicking [master.zip](https://github.com/RENoMafex/lsgrep/archive/refs/heads/master.zip) or some CLI tool like 
 ```bash
 wget https://github.com/RENoMafex/lsgrep/archive/refs/heads/master.zip
 ```
@@ -17,11 +18,16 @@ or
 git clone https://github.com/RENoMafex/lsgrep.git
 ```
 
-If you use ``git clone`` you can skip **Step 2**.
+If you use `git clone` you can skip **Step 2**.
 
-**Step 2:** Unpack master.zip using a tool of your choice. On most Linux distros its possible to just use ``unzip master.zip`` in the Terminal.
+### Step 2
+Unpack master.zip using a tool of your choice. On most Linux distros its possible to just use ``unzip master.zip`` in the Terminal.
 
-**Step 3:** Install lsgrep by using 
+### Step 3
+Install lsgrep by using 
 ```bash
 ./install.sh
 ```
+
+## Usage
+If you just type `lsgrep` you will have the same output as `ls -lAh`, but if you type `lsgrep argument` you will have a grep filtered output of `ls -lAh`
