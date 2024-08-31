@@ -6,9 +6,22 @@ A shellscript to automatically pipe the output from `ls -lAh` to `grep`. If you 
 
 **1.** Download `lsgrep` either by clicking the green `<> Code` button near the top of this page and click `Download ZIP` or some CLI tool like 
 ```bash
-wget
+wget https://github.com/RENoMafex/lsgrep/archive/refs/heads/master.zip
 ```
 or
 ```bash
-curl -fsSL https://github.com/RENoMafex/lsgrep
+curl -fsSL https://github.com/RENoMafex/lsgrep/archive/refs/heads/master.zip
+```
+or
+```bash
+git clone https://github.com/RENoMafex/lsgrep.git
+```
+
+If you use ``git clone`` you can skip Step 2.
+
+**2.** Unpack master.zip using a tool of your choice. On most Linux distros its possible to just use ``unzip master.zip`` in the Terminal.
+
+**3.** Install lsgrep by using 
+```bash
+./install.sh
 ```
