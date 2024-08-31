@@ -11,4 +11,4 @@ wget
 or
 ```bash
 curl -fsSL https://github.com/RENoMafex/
-``` or 
+```
