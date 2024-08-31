@@ -4,7 +4,7 @@ A shellscript to automatically pipe the output from `ls -lAh` to `grep`. If you 
 
 ## Installation
 
-**Step 1:** Download `lsgrep` either by clicking the green `<> Code` button near the top of this page and click `Download ZIP` or some CLI tool like 
+**Step 1:** Download `lsgrep` either by clicking [master.zip](https://github.com/RENoMafex/lsgrep/archive/refs/heads/master.zip) or some CLI tool like 
 ```bash
 wget https://github.com/RENoMafex/lsgrep/archive/refs/heads/master.zip
 ```
