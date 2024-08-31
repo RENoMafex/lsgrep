@@ -29,7 +29,7 @@ if [[ "$response" =~ ^([yY])$ ]]; then
 	selfdir=$(dirname "$(realpath "$0")")
 	rm -rfv $selfdir
 	echo "done!"
-	echo ""
 fi
 
+echo ""
 echo "Thank you for installing lsgrep"
