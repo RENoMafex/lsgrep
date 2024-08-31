@@ -10,5 +10,5 @@ wget
 ```
 or
 ```bash
-curl -fsSL https://github.com/RENoMafex/
+curl -fsSL https://github.com/RENoMafex/lsgrep
 ```
