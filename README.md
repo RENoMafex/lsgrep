@@ -6,4 +6,4 @@ A shellscript to automatically pipe the output from `ls -lAh` to `grep`. If you 
 
 **1.**
 
-Download `lsgrep` either by clicking the green <font color=#00ff00> `<> Code` </font> button.
+Download `lsgrep` either by clicking the green <font color=#00ff00> <> Code </font> button.
