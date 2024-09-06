@@ -26,7 +26,7 @@ Unpack master.zip using a tool of your choice. On most Linux distros its possibl
 ### Step 3
 Install lsgrep by using 
 ```bash
-./install.sh
+lsgrep-master/install.sh
 ```
 
 ## Usage
