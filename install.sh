@@ -13,6 +13,8 @@ fi
 
 echo "Copying lsgrep.sh to $INSTALLDIR/lsgrep"
 
+mkdir -p $INSTALLDIR
+
 cp -fv lsgrep.sh $INSTALLDIR/lsgrep
 echo "done!"
 echo ""
