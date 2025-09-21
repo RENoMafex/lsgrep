@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 input="$1"
+where="$2"
 if command -v grc >/dev/null; then
 	grc="true"
 else
@@ -12,9 +13,9 @@ if [[ -z "$input" && "$grc" == "true" ]]; then
 elif [[ -z "$input" && "$grc" == "false" ]]; then
 	ls -lAh --color=always
 elif [[ -n "$input" && "$grc" == "true" ]]; then
-	/bin/ls -lAh --color=always | grc -c conf.ls grep --ignore-case -E "(:[0-9]{2}|  [0-9]{4}) .*$input.*$"
+	/bin/ls -lAh --color=always $where | grc -c conf.ls grep --ignore-case -E "(:[0-9]{2}|  [0-9]{4}) .*$input.*$"
 elif [[ -n "$input" && "$grc" == "false" ]]; then
-	ls -lAh --color=always | grep --ignore-case -E "(:[0-9]{2}|  [0-9]{4}) .*$input.*$"
+	ls -lAh --color=always $where | grep --ignore-case -E "(:[0-9]{2}|  [0-9]{4}) .*$input.*$"
 else
 	echo "Something went wrong!"
 	exit 1

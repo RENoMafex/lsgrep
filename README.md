@@ -30,4 +30,6 @@ lsgrep-master/install.sh
 ```
 
 ## Usage
-If you just type `lsgrep` you will have the same output as `ls -lAh`, but if you type `lsgrep argument` you will have a grep filtered output of `ls -lAh`
+If you just type `lsgrep` you will have the same output as `ls -lAh`, but if you type `lsgrep argument` you will have a grep filtered output of `ls -lAh`.
+
+You can also do that, to look into directories, by typing `lsgrep argument path/to/directory`.
